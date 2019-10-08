@@ -95,20 +95,21 @@ color:white;
     font-size: 20px;
     
 }
+
 .menu{
     text-align:right;
     border-bottom:1px solid white;
     bottom:-20px;
     position:relative;
-
+    right:1px;
 }
 .menu:after{
     content: ' ';
     border-bottom:1px solid #fff;
     height:1px;
-    width:1%;
+    width:100%;
     position:absolute;
-    top:78px;
+    top:10px;
     left:100%;
   }
   
@@ -118,7 +119,7 @@ color:white;
     height:1px;
     width:100%;
     position:absolute;
-    top:78px;
+    top:10px;
     right:100%;
   }
   
