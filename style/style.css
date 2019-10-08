@@ -52,7 +52,9 @@ body{
 }
 .home{
     text-align:center;
-    padding-top:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    
 }
 .home a:visited{
     color:white;
