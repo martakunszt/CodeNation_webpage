@@ -96,7 +96,7 @@ color:white;
 .menu{
     text-align:right;
     border-bottom:1px solid white;
-    top:-20px;
+    bottom:-20px;
     position:relative;
 
 }
