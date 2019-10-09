@@ -6,7 +6,8 @@ body{
 h1{
     font-size: 70px;
     color:white;
-    text-align:center;  
+    text-align:center; 
+    font-family:  'Dancing Script', cursive;
 }
 
 
@@ -61,16 +62,27 @@ h1{
 }
 .list li a{
     text-decoration:none;
+    font-family: 'Dancing Script', cursive;
+    font-size:30px;
 }
-
+.link{
+    list-style:none;
+    text-decoration:none;
+    
+    width:100%;
+    position:relative;
+    
+}
 /*Footer*/
 .home{
     text-align:center;
     padding-bottom:20px;
     position:absolute;
     display:inline-block;
-
-    
+}
+.copy{
+    background: rgba(255,255,255,0.2);
+    width:100%;
 }
 .home a:visited{
     color:white;
@@ -97,7 +109,7 @@ color:white;
 
 .copy{
     display:inline-block;
-    
+
 }
 
 /*menu top*/
@@ -113,6 +125,7 @@ color:white;
     display:inline-block;
     padding: 20px;
     font-size: 20px;
+    font-family:'Dancing Script', cursive;
     
 }
 
