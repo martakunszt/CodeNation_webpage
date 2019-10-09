@@ -33,14 +33,23 @@ body{
     
 }
 
-.text{
+.boutme{
     background:rgba(255,255,255,0.2);
-    
+    width:75%;
+    border-radius: 25px;
+    display:inline-block;
+    position:relative;
+    margin-left:190px;
+    padding: 20px 20px 20px 20px;
+    margin-top:30px;
 }
-.text{
+.text, .copy{
     color:white;
     text-align:center;
-    line-height: 1.5;
+    line-height: 2;
+}
+.copy{
+    display:inline-block;
 }
 .list li a:hover{
     color: white;
@@ -56,8 +65,10 @@ body{
 }
 .home{
     text-align:center;
-    padding-top:20px;
     padding-bottom:20px;
+    position:absolute;
+    display:inline-block;
+
     
 }
 .home a:visited{
@@ -69,21 +80,18 @@ color:white;
 .home a:hover{
     color:#555;
 }
-#myBtn {
+.far {
   position: fixed; 
   bottom: 20px;
   right: 30px; 
-  z-index: 99; 
-  border: none; 
-  outline: none;   
-  cursor: pointer; 
+  z-index: 99;  
   padding: 15px; 
-  border-radius: 10px; 
-  font-size: 18px; 
+  font-size: 30px; 
+  color:#fff;
 }
 
-#myBtn:hover {
-  background-color: #555; 
+.far:hover {
+  color: #555
 }
 .menu li a{
     text-decoration:none;
