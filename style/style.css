@@ -21,7 +21,8 @@ h1{
 .cnidus{
     width:15%;
     height:15%; 
-    margin-left:600px;
+    margin-left:42%;
+    border-radius: 10px;
 
 }
 .image{
@@ -68,17 +69,36 @@ h1{
 .link{
     list-style:none;
     text-decoration:none;
-    
-    width:100%;
-    position:relative;
+    text-align:center;
+    margin-right:40px;
     
 }
+.link li{
+    display:inline-block;
+}
+.link li a:hover{
+    color: white;
+}
+.link li a:visited{
+    color:white;
+}
+.link li a:link{
+    color:white;
+}
+.link li a{
+    text-decoration:none; 
+    padding:20px;
+}
 /*Footer*/
+footer{
+    padding-top:50px;
+}
 .home{
     text-align:center;
-    padding-bottom:20px;
+    padding-bottom:15px;
+    margin-top:15px;
     position:absolute;
-    display:inline-block;
+    margin-left:40%;
 }
 .copy{
     background: rgba(255,255,255,0.2);
@@ -100,6 +120,7 @@ color:white;
   z-index: 99;  
   padding: 15px; 
   font-size: 30px; 
+  margin-bottom:100px;
   color:#fff;
 }
 
