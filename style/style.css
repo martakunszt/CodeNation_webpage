@@ -11,7 +11,7 @@ h1{
 }
 
 h2{
-        font-size: 30px;
+        font-size:25px;
         color:white;
         text-align:center; 
         font-family:  'Dancing Script', cursive;
@@ -180,7 +180,7 @@ color:white;
     position:relative;
     bottom:30px;
 }
-
+/*
 .menu:after{
     content: ' ';
     border-bottom:1px solid #fff;
@@ -200,3 +200,10 @@ color:white;
     top:78px;
     right:100%;
   }
+*/
+.skills{
+    list-style: none;
+    text-align:center;
+    color:white;
+    line-height:1.5;
+}
