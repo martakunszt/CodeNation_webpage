@@ -220,8 +220,10 @@ margin-top:-140px;
     position:absolute;
 }
 .polka{
-    width:70%;
-    height:70%;
-    float:left;
-    margin-right: 30px;
+    width:55%;
+    height:55%;
+    padding:20px;
+    float:right;
+    margin-left:60px;
+    margin-top:-140px;
 }
